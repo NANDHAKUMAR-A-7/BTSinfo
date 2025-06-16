@@ -1,6 +1,6 @@
 {
-  "name": "Hello PWA",
-  "short_name": "PWA",
+  "name": "FROM BTSinfo",
+  "short_name": "BTSinfo.xyz",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#317EFB",

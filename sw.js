@@ -5,7 +5,7 @@ self.addEventListener('install', function(event) {
     caches.open('pwa-cache').then(function(cache) {
       return cache.addAll([
         '/',
-        '/popup.html',
+      
         '/manifest.json',
         '/icon.png'
       ]);
