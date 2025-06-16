@@ -1,7 +1,7 @@
 {
   "name": "Hello PWA",
   "short_name": "PWA",
-  "start_url": "/popup.html",
+  "start_url": "/btsinfo.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#317EFB",
