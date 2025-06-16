@@ -7,7 +7,7 @@ popup.classList.add("fade-out");
 
 // Optional: add small delay before redirect to allow fade
 setTimeout(() => {
-window.location.href = "popup.html"; // Change to your main page
+window.location.href = "BTSinfo.html"; // Change to your main page
 }, 500);
 }, 2000);
 
