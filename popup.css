@@ -944,9 +944,7 @@ to{
     width: 100%;
     max-width: 1200px;
     height:00px; /* Default flexible height */
-    min-height: 100vh; /* Makes it full height on large screens */
-    margin: 0 auto;       /* Center the div horizontally */
-    padding: 1rem;        /* Padding inside the container */
+    min-height: 50vh; /* Makes it full height on large screens */
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
