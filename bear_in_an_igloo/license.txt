@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bear in an igloo
+* source:	https://sketchfab.com/3d-models/bear-in-an-igloo-1bfb10cb859740d7a57ef30c8919840c
+* author:	sheana (https://sketchfab.com/sheana)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bear in an igloo" (https://sketchfab.com/3d-models/bear-in-an-igloo-1bfb10cb859740d7a57ef30c8919840c) by sheana (https://sketchfab.com/sheana) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

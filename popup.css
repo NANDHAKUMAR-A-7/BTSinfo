@@ -973,3 +973,21 @@ to{
      max-width: 350px;
       }
 }
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-3d {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* disables interaction */
+  z-index: 0;
+}
