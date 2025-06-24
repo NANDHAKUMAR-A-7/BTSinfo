@@ -10,6 +10,7 @@
     <link rel="icon" type="image/jpg" href="/images/compresed image yl-sco.jpg">
     <link rel="stylesheet" href="popup.css">
     <meta name="theme-color" content="black">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </head>
 
 <body>
@@ -30,40 +31,20 @@
         <div class="hero-content" id="hero-content1">
             <h1 id="para00"> <span4> < </span4> Innovative Software </h1> <h1 id="para00">Solutions.</h1><br>
 
-            <br> <p id="para0">We deliver cutting-edge software solutions to help your business grow.</p><br>
+            <br> <p id="para0" class="text-focus-in">We deliver cutting-edge software solutions to help your business grow.</p><br>
             
             <br><a href="#contact" class="cta-button" id="cta-button">Get in Touch</a><br>
        <br> </div><br>
-       <br>
-       <br>
-       <br>
-        <center>
-            <br><div class="main-div">
-              <br><p >
-                <h4 class="par1" >
-                    Grow your carrier at the heart of change <br>
-                 it's your time bring your ingenunity,curiosity and big ideas.
-                </h4> 
-            </p><br>
-
-            <br><p>
-                <h4 class="par2"> 
-                   Everyday we embrace change and create value for all stakeholders,<br>in every part of the world.
-                </h4>
-            </p><br>
-
-            <br><p>
-                <h4 class="par3">
-                   A great place to work.<br> the top consulting firm 
-                   An influential innovator 
-                </h4>
-            </p>
-           </div>
-        </center>
+<div class="main-div">
+    <model-viewer src="/felix_the_cat/scene.gltf"  alt="3D Model"
+        alt="Animated 3D Model"
+        auto-rotate
+        autoplay
+        animation-name="YourAnimationName"  <!-- Optional -->
+    </model-viewer>
+</div>
        
-    </section>
-   
-
+</section>
     <section id="about" class="about">
         <div class="container" id="container">
             <h2 id="about"><span>About Us</span></h2>
@@ -113,12 +94,11 @@
     <br>
     <br>
 </div>
-<br><br>
-<h2><center>
+<!-- <h2><center>
    <div id="pushbtn">
      <button id="button" >Push Notification</button>
    </div>
-</center></h2>
+</center></h2> -->
     <footer>
         <p id="footer1">&copy; 2024 YoungLead(YL). All rights reserved.</p>
     </footer>

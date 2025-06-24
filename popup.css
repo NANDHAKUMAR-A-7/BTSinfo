@@ -3,12 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
 }
 
 *::-webkit-scrollbar{
     display: none;
 }
 
+html{
+    background-color: black;
+}
 
 #contact{
     animation: appear linear;
@@ -734,15 +738,6 @@ span3{
     width: 330px
 }
 
-.main-div{
-    background-color: black;
-    margin-left: 40px;
-    padding: 5px;
-    overflow-y: auto;
-    width: 350px;
-    height: 380px;
-}
-
 #par1{
     z-index: 0;
     animation: appear linear;
@@ -911,4 +906,55 @@ to{
             filter: blur(0px);
     opacity: 1;
   }
+}
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.main-div{
+    background-color: black;
+    width: 100%;
+    max-width: 1200px;
+    height:00px; /* Default flexible height */
+    min-height: 100vh; /* Makes it full height on large screens */
+    margin: 0 auto;       /* Center the div horizontally */
+    padding: 1rem;        /* Padding inside the container */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+ model-viewer {
+      width: 100%;
+      height: 100%;
 }
