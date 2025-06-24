@@ -958,3 +958,20 @@ to{
       width: 100%;
       height: 100%;
 }
+
+.models-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    model-viewer {
+      background:black;
+      border-radius: 12px;
+    }
+
+    @media (max-width: 768px) {
+      model-viewer {
+     max-width: 350px;
+      }
+}
