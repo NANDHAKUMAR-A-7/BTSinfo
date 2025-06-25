@@ -991,3 +991,35 @@ to{
   pointer-events: none; /* disables interaction */
   z-index: 0;
 }
+
+.whatsapp-contact{
+  color: white;
+  background-color:black;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: start;
+}
+
+.item-wh:nth-child(1) {
+  flex-grow: 0.5;
+}
+
+.via-mobile{
+  width: 150px;
+  border-radius:20px;
+  color: rgb(8, 8, 8);
+  background-color: rgb(15, 214, 85);
+  justify-content: center;
+  align-items: center;
+}
+
+.item-mh{
+  background-color: transparent;
+  width:100%;
+  height: 20px;
+  flex-grow: 0.1; 
+  padding: 20px;
+}
