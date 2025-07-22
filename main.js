@@ -54,3 +54,15 @@
 
     console.log("Scroll animation JS loaded");
   });
+
+  if (window.innerWidth < 768) {
+  model.scale.set(0.5, 0.5, 0.5); // Smaller for mobile
+} else {
+  model.scale.set(1, 1, 1);
+}
+
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableZoom = true;
+controls.enableRotate = true;
+controls.enablePan = false;
+controls.enableDamping = true;
