@@ -150,8 +150,8 @@ a:hover {
 /* Model Viewer */
 model-viewer {
   width: 100%;
-  max-width: 400px;
-  height: 300px;
+  max-width: 250px;
+  height: 150px;
   margin: 2rem auto;
   display: block;
 }
@@ -226,8 +226,8 @@ footer p {
 } */
 .proj-button {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  right: 4rem;
+  bottom: 2rem;
   z-index: 1000;
   color:black;
   width: 100%;
@@ -240,8 +240,6 @@ footer p {
   box-shadow: 0 0 10px #00bcd4;
   text-decoration: none;
   transition: transform 0.3s ease;
-  border-top-left-radius: 40px;
-  border-bottom-right-radius: 40px;
 }
 
 @media (min-width: 100px) {
